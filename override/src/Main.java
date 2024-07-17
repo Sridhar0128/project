@@ -1,4 +1,4 @@
-class animal{
+class Animal{
     void color(){
         System.out.println("Animal color");
     }
@@ -6,12 +6,12 @@ class animal{
         System.out.println("Animal sounds");
     }
 }
-class dog extends animal{
+class Dog extends Animal{
      void sound(){
         System.out.println("dog barks");
     }
 }
-  class cat extends animal{
+  class Cat extends Animal{
     void structure(){
         System.out.println("cat is small");
     }
@@ -21,10 +21,10 @@ class dog extends animal{
 }
 public class Main {
     public static void main(String[] args) {
-        cat obj=new cat();
+        Cat obj=new Cat();
         obj.sound();
         obj.color();
-        animal obj1=new animal();
+        Animal obj1=new Animal();
         obj1.sound();
 
 
